@@ -28,9 +28,9 @@ else
             // Output the filtered records
             foreach (var record in filteredRecords)
             {
-                foreach (var field in (IDictionary<string, object>)record)
+                foreach (var field in record)
                 {
-                    Console.WriteLine($"{field.Key}: {field.Value}");
+                    Console.Write($"{field.Key}: {field.Value} ");
                 }
                 Console.WriteLine();
             }
