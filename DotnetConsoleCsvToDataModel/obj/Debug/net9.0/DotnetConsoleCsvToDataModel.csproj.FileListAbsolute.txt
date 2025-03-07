@@ -1,0 +1,17 @@
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\bin\Debug\net9.0\DotnetConsoleCsvToDataModel.exe
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\bin\Debug\net9.0\DotnetConsoleCsvToDataModel.deps.json
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\bin\Debug\net9.0\DotnetConsoleCsvToDataModel.runtimeconfig.json
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\bin\Debug\net9.0\DotnetConsoleCsvToDataModel.dll
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\bin\Debug\net9.0\DotnetConsoleCsvToDataModel.pdb
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\bin\Debug\net9.0\CsvHelper.dll
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.csproj.AssemblyReference.cache
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.GeneratedMSBuildEditorConfig.editorconfig
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.AssemblyInfoInputs.cache
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.AssemblyInfo.cs
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.csproj.CoreCompileInputs.cache
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetCo.2E2524B5.Up2Date
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.dll
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\refint\DotnetConsoleCsvToDataModel.dll
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.pdb
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\DotnetConsoleCsvToDataModel.genruntimeconfig.cache
+d:\git_repos\DotNetConsoleAppCvsToDataModel\DotnetConsoleCsvToDataModel\obj\Debug\net9.0\ref\DotnetConsoleCsvToDataModel.dll
