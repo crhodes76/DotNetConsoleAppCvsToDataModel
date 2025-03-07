@@ -1,27 +1,30 @@
-
-
 using CsvHelper;
 using System.Globalization;
 using CsvHelper.Configuration;
-
+using System.Threading.Tasks;
 
 class BuildDataModel
 {
-    public static List<dynamic> CreateDataModel(string aCsvFileName)
+    public static async Task<List<dynamic>> CreateDataModel(string aDirectory) // Change parameter name to aDirectory
     {
-        aCsvFileName = "C:\\Users\\charl\\OneDrive\\Documents\\csv_data\\house-price.csv";
+        aDirectory = "C:\\Users\\charl\\OneDrive\\Documents\\csv_data\\";
         var data = new List<dynamic>();
+        
         try
         {
-            using (var reader = new StreamReader(aCsvFileName))
-            using (var csv = new CsvReader(reader, new CsvConfiguration { CultureInfo = CultureInfo.InvariantCulture }))
+            string[] csvFiles = Directory.GetFiles(aDirectory, "*.csv"); // Get all CSV files in the directory
+            foreach (var file in csvFiles)
             {
-                var records = new List<dynamic>();
-
-                while (csv.Read())
+                using (var reader = new StreamReader(file))
+                using (var csv = new CsvReader(reader, new CsvConfiguration { CultureInfo = CultureInfo.InvariantCulture }))
                 {
-                    var record = csv.GetRecord<dynamic>();
-                    data.Add(record);
+                    var records = new List<dynamic>();
+
+                    while (await Task.Run(() => csv.Read())) // Use Task.Run to run the synchronous Read method asynchronously
+                    {
+                        var record = csv.GetRecord<dynamic>();
+                        data.Add(record);
+                    }
                 }
             }
         }
